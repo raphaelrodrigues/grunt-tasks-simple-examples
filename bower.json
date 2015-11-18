@@ -1,0 +1,16 @@
+{
+    "name": "sampleApp",
+    "version": "0.0.0",
+    "dependencies": {
+        "bootstrap": "~3.3.5",
+        "grunt": "~0.4.5",
+        "angularjs": "~1.4.7"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/css/bootstrap.css"
+            ]
+        }
+    }
+}
