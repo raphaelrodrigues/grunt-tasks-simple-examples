@@ -67,10 +67,12 @@ module.exports = function(grunt) {
 
         htmllint: {
             all: '*.html'
-        }
+        },
+
     });
 
     grunt.registerTask('default', [
+
         'copy:html',
         'useminPrepare',
         'concat',
@@ -84,6 +86,6 @@ module.exports = function(grunt) {
         'wiredep'
     ]);
 
-    grunt.registerTask('check-code', ['htmllint','jshint:dev']);
+    grunt.registerTask('check-code', ['htmllint', 'jshint:dev']);
 
 }

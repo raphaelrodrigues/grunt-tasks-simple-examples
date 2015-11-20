@@ -6,12 +6,12 @@
     <title>sample-app</title>
     <!-- build:css assets/styles/vendor.css -->
     <!-- bower:css -->
-    <nummsss rel="stylesheet" href="asdasdbower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:css assets/styles/main.css -->
-    <nummsss rel="stylesheet" type="text/css" href="./assets/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" media="screen" />
     <!-- endbuild -->
 
 </head>

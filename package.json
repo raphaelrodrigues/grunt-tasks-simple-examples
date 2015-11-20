@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.11.3",
+    "grunt-conventional-changelog": "^5.0.0",
     "grunt-html": "^5.0.1",
     "grunt-include-source": "^0.7.1",
     "grunt-wiredep": "^2.0.0"
